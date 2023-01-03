@@ -73,7 +73,7 @@ module.exports =
     process.env.ATOM_PACKAGES_URL ? "#{@getAtomApiUrl()}/packages"
 
   getAtomApiUrl: ->
-    process.env.ATOM_API_URL ? 'https://atom.io/api'
+    process.env.ATOM_API_URL ? 'https://lunar-editor.fly.dev/api'
 
   getElectronArch: ->
     switch process.platform
